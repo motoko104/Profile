@@ -1,0 +1,16 @@
+*{
+    font-family: 'Nunito', sans-serif;
+}
+nav {
+    background-color: #8d476d;
+}
+
+nav .brand-logo {
+    font-size: 2rem;
+    min-width: 200px;
+    color: #b7a6cf;
+}
+.sidenav {
+    background-color: #efeaf7;
+    color: #4d283c;
+}
