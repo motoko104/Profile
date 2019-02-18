@@ -10,36 +10,83 @@
     <!-- Materialize icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Nunito:400, 600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Nunito:400,400i,600" rel="stylesheet">
     <!-- Custom CSS styling page -->
     <link rel="stylesheet" type="text/css" media="screen" href="style/css/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-    <nav>
-        <div class="nav-wrapper">
-            <a href="#!" class="brand-logo">Amanda Padilla</a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+    <!-- Navigation Bar -->
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">Amanda Padilla</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">toc</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Navigaton modal when on mobile or smaller screens -->
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <!-- Main page content -->
+    <!-- This is the About Me Section -->
+    <div class="section textArea">
+        <div class="row container">
+            <h2 class="header">A Little Bit About Me</h2>
+            <p class="grey-text text-darken-3 lighten-3 col s7">Full Stack Web Developer with a background in Biological Sciences and laboratory work. Experienced working collaboratively with several different teams simultaneously. Investigating and innovating solution through the usage and implementation of familiar and new technologies.</p>
+            <img class="profImg col s5" src="style/images/amanda.jpg" />
         </div>
-    </nav>
+    </div>
+    <!-- Divider between sections -->
+    <div class="parallax-container">
+        <div class="parallax"><img class="paraImg" src="style/images/background.jpg"></div>
+    </div>
+    <!-- Background information -->
+    <div class="section textArea">
+        <div class="row container">
+            <h2 class="header">Background</h2>
+            <p class="grey-text text-darken-3 lighten-3">This will be a list of my background experiences.</p>
+        </div>
+    </div>
+    <!-- Divider between sections -->
+    <div class="parallax-container">
+        <div class="parallax"><img class="paraImg" src="style/images/background.jpg"></div>
+    </div>
+    <!-- Contact information -->
+    <div class="section textArea">
+        <div class="row container">
+            <h2 class="header">Contact</h2>
+            <p class="grey-text text-darken-3 lighten-3">where my contacting images and info will be</p>
+        </div>
+    </div>
+    <!-- Divider between sections -->
+    <div class="parallax-container">
+        <div class="parallax"><img class="paraImg" src="style/images/background.jpg"></div>
+    </div>
+    <!-- List of works -->
+    <div class="section textArea">
+        <div class="row container">
+            <h2 class="header">Work</h2>
+            <p class="grey-text text-darken-3 lighten-3">sectioning of my projects to showcase</p>
+        </div>
+    </div>
 
-    <ul class="sidenav" id="mobile-demo">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Work</a></li>
-        <li><a href="#">Contact</a></li>
-    </ul>
-
+    <!-- Footer -->
 
     <!-- JQuery script -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
     <!-- Materialize JS script -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <!-- Custom JS functions -->

@@ -2,15 +2,45 @@
     font-family: 'Nunito', sans-serif;
 }
 nav {
-    background-color: #8d476d;
+    background-color: #885090;
 }
 
 nav .brand-logo {
     font-size: 2rem;
     min-width: 200px;
-    color: #b7a6cf;
+    color: #e2d6f3;
 }
 .sidenav {
-    background-color: #efeaf7;
+    background-color: #f5f2f8;
     color: #4d283c;
 }
+
+.profImg {
+    width: 160px;
+    height: 140px;
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    /* border-radius: 100px; */
+}
+
+.parallax-container {
+    height: 60px;
+}
+
+.textArea {
+    background-color: #ddd2d7;
+}
+.header {
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.8em;
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto;
+}
+ p {
+     text-align: center;
+     padding: 2px;
+     margin: 0 auto;
+ }
+ .paraImg{
+    object-fit: fill;
+ }
