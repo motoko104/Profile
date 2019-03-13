@@ -70,5 +70,17 @@ i .material-icons:hover{
         margin: 0 auto;
         max-width: 600px;
     }
-    .
+    .myTitle{
+        left: 37%;
+    }
+ }
+
+ @media screen and (min-width: 1020px){
+    nav .brand-logo{
+        position: relative;
+        left: 40%;
+    } 
+    .myTitle{
+         left: 27%;
+     }
  }
