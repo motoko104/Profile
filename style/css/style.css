@@ -9,6 +9,7 @@ nav {
 }
 
 nav .brand-logo {
+    font-family: 'Comfortaa', cursive;
     font-size: 2rem;
     min-width: 200px;
     color: #f6e7f8;
@@ -40,7 +41,7 @@ i .material-icons:hover{
     background-color: #ccf3ba;
 }
 .header {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Bevan', cursive;
     font-size: 1.8em;
     text-align: center;
     padding: 10px;
@@ -59,12 +60,43 @@ i .material-icons:hover{
     object-fit: fill;
  }
  .myTitle{
+    font-family: 'Comfortaa', cursive;
      position: relative;
      top: 17px;
      font-size: .5rem;
      left: 28%;
  }
+ .contTxt, .workTxt{
+     text-align: center;
+     text-indent: 0;
+ }
+a {
+    color: #603666;
+}
+.material-icons{
+    font-size: 45px;
+}
+div.contactIcons{
+    text-align: center;
+}
+.contactIcons a{
+    display: inline-block;
+    margin: 5px 25px;
+}
+/* i .material-icons:hover, img .linkedInImg:hover, img .githubImg:hover{
+    font-size: 50px;
+    width: 55px;
+    height: 55px;
+} */
+.linkedInImg, .githubImg{
+    width: 52px;
+    height: 48px;
+}
+.card-image{
+    
+}
 
+/* For responsiveness */
  @media screen and (min-width: 760px) {
     .pageCont{
         margin: 0 auto;
@@ -82,5 +114,14 @@ i .material-icons:hover{
     } 
     .myTitle{
          left: 27%;
+     }
+ }
+
+ @media screen and (min-width: 1440px){
+     nav .brand-logo{
+        left: 43%;
+     }
+     .myTitle{
+         left: 33%;
      }
  }
