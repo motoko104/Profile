@@ -9,4 +9,4 @@ Normal View
 
 Mobile View
 
-![Mobile View](/style/images/mobile.png)
+![Mobile View](/style/images/mobileprof.png)
