@@ -5,6 +5,9 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Amanda Padilla</title>
+    <!-- JQuery script -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
     <!-- Materialize CDN CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- Materialize icons -->
@@ -25,27 +28,29 @@
         <nav>
             <div class="nav-wrapper">
                 <a href="#!" class="brand-logo">Amanda Padilla</a><a class="myTitle">Full Stack Web Developer</a>
-                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">toc</i></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons menuIcon">toc</i></a>
                 <ul class="right hide-on-med-and-down">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Work</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li class="active"><a href="https://motoko104.github.io/Profile/#aboutMePart">Home</a></li>
+                    <li><a href="https://motoko104.github.io/Profile/#aboutMePart">About</a></li>
+                    <li><a href="https://motoko104.github.io/Profile/#bkgdPart">Background</a></li>
+                    <li><a href="https://motoko104.github.io/Profile/#contactPart">Contact</a></li>
+                    <li><a href="https://motoko104.github.io/Profile/#workPart">Work</a></li>
                 </ul>
             </div>
         </nav>
         <!-- Navigaton modal when on mobile or smaller screens -->
         <ul class="sidenav" id="mobile-demo">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Contact</a></li>
+            <li class="active"><a href="https://motoko104.github.io/Profile/#aboutMePart">Home</a></li>
+            <li><a href="https://motoko104.github.io/Profile/#aboutMePart">About</a></li>
+            <li><a href="https://motoko104.github.io/Profile/#bkgdPart">Background</a></li>
+            <li><a href="https://motoko104.github.io/Profile/#contactPart">Contact</a></li>
+            <li><a href="https://motoko104.github.io/Profile/#workPart">Work</a></li>
         </ul>
     </div>
     <!-- Main page content -->
     <!-- This is the About Me Section -->
     <div class="pageCont">
-        <div class="section textArea aboutMe">
+        <div id="aboutMePart" class="section textArea aboutMe">
             <div class="row container">
                 <h2 class="header">About Me</h2>
                 <p class="grey-text text-darken-3 lighten-3 col s12">I'm a Full Stack Web Developer who strives to
@@ -67,7 +72,7 @@
             <div class="parallax"><img class="paraImg" src="style/images/background.jpg"></div>
         </div>
         <!-- Background information -->
-        <div class="section textArea bkGround">
+        <div id="bkgdPart" class="section textArea bkGround">
             <div class="row container">
                 <h2 class="header">Background</h2>
                 <p class="grey-text text-darken-3 lighten-3">At a young age I had a great affinity for computers and
@@ -100,7 +105,7 @@
             <div class="parallax"><img class="paraImg" src="style/images/background.jpg"></div>
         </div>
         <!-- Contact information -->
-        <div class="section textArea contact">
+        <div id="contactPart" class="section textArea contact">
             <div class="row container">
                 <h2 class="header">Contact</h2>
                 <p class="grey-text text-darken-3 lighten-3 contTxt">Feel free to contact me</p>
@@ -116,13 +121,13 @@
                         </ul>
                     </a>
                     <a href="https://www.linkedin.com/in/amanda-padilla-7abb1a28/">
-                        <img class="linkedInImg" src="style/images/linkedIn.png"/>
+                        <img class="linkedInImg" src="style/images/linkedIn.png" />
                         <ul>
                             <li>LinkedIn</li>
                         </ul>
                     </a>
                     <a href="https://github.com/motoko104">
-                        <img class="githubImg" src="style/images/github.png"/>
+                        <img class="githubImg" src="style/images/github.png" />
                         <ul>
                             <li>Github</li>
                         </ul>
@@ -135,34 +140,30 @@
             <div class="parallax"><img class="paraImg" src="style/images/background.jpg"></div>
         </div>
         <!-- List of works -->
-        <div class="section textArea prevWork">
+        <div id="workPart" class="section textArea prevWork">
             <div class="row container">
                 <h2 class="header">Work</h2>
-                <p class="grey-text text-darken-3 lighten-3 workTxt">sectioning of my projects to showcase</p>
-                <div class="col s12 m12">
-                    <div class="card horizontal">
-                      <div class="card-image">
-                        <img src="style/images/shindig.jpeg">
-                      </div>
-                      <div class="card-stacked">
-                        <div class="card-content">
-                          <p>Shindig. An app targeted to empower individuals to create, plan, andd execute any event type, at any size.</p>
+                <p class="grey-text text-darken-3 lighten-3 workTxt">Current and previous work</p>
+                <div class="row">
+                    <div class="col s12 m7">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="style/images/shindig.jpeg">
+                            </div>
+                            <div class="card-content workTxt">
+                                <p>Shindig. An app targeted to empower individuals to create, plan, and execute any event type, at any size.</p>
+                            </div>
+                            <div class="card-action">
+                                <a class="sdLink" href="https://shindig2-0.herokuapp.com/">Shindig Link</a>
+                            </div>
                         </div>
-                        <div class="card-action">
-                          <a href="https://shindig2-0.herokuapp.com/">Shindig</a>
-                        </div>
-                      </div>
                     </div>
-                  </div>
+                </div>
             </div>
         </div>
     </div>
 
     <!-- Footer -->
-
-    <!-- JQuery script -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
     <!-- Materialize JS script -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <!-- Custom JS functions -->

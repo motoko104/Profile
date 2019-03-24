@@ -4,4 +4,5 @@ $(document).ready(function () {
 
   //Functioning for parallax style
   $('.parallax').parallax();
+
 });

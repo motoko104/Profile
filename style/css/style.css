@@ -1,42 +1,46 @@
+/* General CSS for the whole page */
 *{
     font-family: 'Roboto', sans-serif;
 }
 body{
     background-color: #bbaebd;
 }
+a {
+    color: #603666;
+}
+.material-icons{
+    font-size: 45px;
+}
+/* Navigation styling for small mobile */
 nav {
     background-color: #603666;
 }
-
 nav .brand-logo {
     font-family: 'Comfortaa', cursive;
-    font-size: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
     min-width: 200px;
     color: #f6e7f8;
 }
-i .material-icons:hover{
-    font-size: 1.5em;
-    color: #bbaebd;
+.myTitle{
+    font-family: 'Comfortaa', cursive;
+     position: relative;
+     top: 17px;
+     font-size: .5rem;
+     left: 20%;
+ }
+.sidenav-overlay{
+    background-color: rgba(0,0,0,0.05);
 }
-.sidenav-overlay {
+.sidenav{
     color: #4d283c;
-    opacity: none;
+    opacity: 1;
 }
-
-.profImg {
-    width: 145px;
-    height: 150px;
-    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
-    float: right;
-    padding: 8px 2px 8px 8px;
-    /* border-radius: 100px; */
-}
-
+/* Shared CSS between all sections */
 .parallax-container {
     max-width: 100%;
-    height: 60px;
+    max-height: 70px;
 }
-
 .textArea {
     background-color: #ccf3ba;
 }
@@ -45,9 +49,9 @@ i .material-icons:hover{
     font-size: 1.8em;
     text-align: center;
     padding: 10px;
-    margin: 10px auto;
+    margin: 0 auto;
 }
- p {
+p {
      text-indent: 10%;
      text-align: left;
      padding: 5px;
@@ -55,73 +59,114 @@ i .material-icons:hover{
      word-wrap: break-word;
      overflow-wrap: break-word;
  }
- .paraImg{
+.paraImg{
     opacity: 0.75;
-    object-fit: fill;
+    object-fit: contain;
  }
- .myTitle{
-    font-family: 'Comfortaa', cursive;
-     position: relative;
-     top: 17px;
-     font-size: .5rem;
-     left: 28%;
+ .row{
+     margin-bottom: 10px;
  }
- .contTxt, .workTxt{
-     text-align: center;
-     text-indent: 0;
- }
-a {
-    color: #603666;
+/* About Me Specific CSS */
+.profImg {
+    width: 145px;
+    height: 150px;
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    float: right;
+    padding: 8px 2px 8px 8px;
 }
-.material-icons{
-    font-size: 45px;
-}
+/* Contact Specific CSS */
 div.contactIcons{
     text-align: center;
+    
 }
 .contactIcons a{
     display: inline-block;
     margin: 5px 25px;
 }
-/* i .material-icons:hover, img .linkedInImg:hover, img .githubImg:hover{
-    font-size: 50px;
-    width: 55px;
-    height: 55px;
-} */
 .linkedInImg, .githubImg{
     width: 52px;
     height: 48px;
 }
-.card-image{
-    
+/* Work Specific CSS */
+div .card-action{
+    text-align: center;
 }
+.card .card-action{
+    padding: 15px;
+}
+a .sdLink{
+    color: #4d283c;
+}
+.card .card-content{
+    padding: 15px;
+}
+/* Special Cases */
+/* Text within Contact and Work sections */
+.contTxt, .workTxt{
+     text-align: center;
+     text-indent: 0;
+ }
 
-/* For responsiveness */
+
+/* Responsiveness for Several Viewport sizes */
+/* Larger Cell Phones */
+@media screen and (min-width: 420px) {
+    .myTitle{
+        left: 25%;
+    }
+}
+/* Tablet sized screens */
  @media screen and (min-width: 760px) {
+    nav .brand-logo{
+        font-size: 2rem;
+    }
     .pageCont{
         margin: 0 auto;
         max-width: 600px;
     }
     .myTitle{
-        left: 37%;
+        padding: 10px 0px;
+        font-size: .75rem;
+        left: 23%;
+    }
+    nav a.sidenav-trigger i {
+        padding: 0px 0px 0px 85px;
+    }
+    div .card{
+        width: 490px;
+    }
+    .workTxt p{
+        text-align: center;
     }
  }
-
+/* Common Laptop screen size */
  @media screen and (min-width: 1020px){
     nav .brand-logo{
         position: relative;
         left: 40%;
     } 
     .myTitle{
-         left: 27%;
+         left: 23%;
      }
+     nav ul a{
+         font-size: 0.8rem;
+     }
+     div .card{
+        width: 430px;
+    }
+    .card-image img{
+        height: 280px;
+    }
  }
-
+/* Larger Laptop screen size */
  @media screen and (min-width: 1440px){
      nav .brand-logo{
         left: 43%;
      }
      .myTitle{
-         left: 33%;
+         left: 30%;
+     }
+     div .card{
+         width: 400px;
      }
  }
