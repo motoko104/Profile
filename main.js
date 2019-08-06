@@ -169,6 +169,84 @@ c.stroke();
 c.fillStyle = "rgba(120, 103, 195, 1.0)";
 c.fill();
 
+// ----------------------------- Eye area ----------------------------------------
+//right side
+c.beginPath();
+c.moveTo(cw + 50, ch + 40);
+c.lineTo(cw + 25, ch + 90);
+c.lineTo(cw + 25, ch + 130);
+c.lineTo(cw + 35, ch + 120);
+c.lineTo(cw + 37, ch + 95);
+c.lineTo(cw + 53, ch + 80);
+c.closePath();
+c.strokeStyle = "rgba(120, 103, 195, 0.7)";
+c.stroke();
+c.fillStyle = "rgba(120, 103, 195, 1.0)";
+c.fill();
+
+c.beginPath();
+c.moveTo(cw + 50, ch + 40);
+c.lineTo(cw + 53, ch + 80);
+c.lineTo(cw + 90, ch + 60);
+c.closePath();
+c.strokeStyle = "rgba(120, 103, 195, 0.7)";
+c.stroke();
+c.fillStyle = "rgba(120, 103, 195, 0.7)";
+c.fill();
+
+//right eye
+c.beginPath();
+c.moveTo( cw + 25, ch + 130);
+c.lineTo(cw + 35, ch + 120);
+c.lineTo(cw + 37, ch + 95);
+c.lineTo(cw + 53, ch + 80);
+c.lineTo(cw + 90, ch + 60);
+c.arc(cw + 95, ch + 67, 18, 2.45, 2.10, true);
+c.arc(cw + 66, ch + 95, 23, 4.76, 2.1, false);
+c.closePath();
+c.strokeStyle = "rgba(30, 7, 75, 1.0)";
+c.stroke();
+c.fillStyle = "rgba(30, 7, 75, 1.0)";
+c.fill();
+
+// left side
+c.beginPath();
+c.moveTo(cw - 50, ch + 40);
+c.lineTo(cw - 25, ch + 90);
+c.lineTo(cw - 25, ch + 130);
+c.lineTo(cw - 35, ch + 120);
+c.lineTo(cw - 37, ch + 95);
+c.lineTo(cw - 53, ch + 80);
+c.closePath();
+c.strokeStyle = "rgba(120, 103, 195, 0.7)";
+c.stroke();
+c.fillStyle = "rgba(120, 103, 195, 0.7)";
+c.fill();
+
+c.beginPath();
+c.moveTo(cw - 50, ch + 40);
+c.lineTo(cw - 53, ch + 80);
+c.lineTo(cw - 90, ch + 60);
+c.closePath();
+c.strokeStyle = "rgba(120, 103, 195, 0.7)";
+c.stroke();
+c.fillStyle = "rgba(120, 103, 195, 1.0)";
+c.fill();
+
+//left eye
+c.beginPath();
+c.moveTo( cw - 25, ch + 130);
+c.lineTo(cw - 35, ch + 120);
+c.lineTo(cw - 37, ch + 95);
+c.lineTo(cw - 53, ch + 80);
+c.lineTo(cw - 90, ch + 60);
+c.lineTo(cw - 88, ch + 68);
+c.arc(cw - 66, ch + 95, 23, 0.56, -2.1, false);
+c.closePath();
+c.strokeStyle = "rgba(30, 7, 75, 1.0)";
+c.stroke();
+c.fillStyle = "rgba(30, 7, 75, 1.0)";
+c.fill();
 
 // c.fillStyle = "rgba(67, 42, 118, 0.2)";
 // c.fillRect(50, 50, 100, 100);
