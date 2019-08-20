@@ -104,6 +104,70 @@ c.stroke();
 c.fillStyle = "rgba(30, 7, 75, 0.7)";
 c.fill();
 
+// --------------------------------Mouth area ---------------------------------
+// top lips
+//right
+c.beginPath();
+c.moveTo(cw + 23, ch + 151);
+c.lineTo(cw + 6, ch + 165);
+c.lineTo(cw + 5, ch + 180);
+c.lineTo(cw + 19, ch + 185);
+c.lineTo(cw + 45, ch + 170);
+c.closePath();
+c.strokeStyle = "rgba(120, 103, 195, 0.7)";
+c.stroke();
+c.fillStyle = "rgba(120, 103, 195, 0.7)";
+c.fill();
+
+//left
+c.beginPath();
+c.moveTo(cw - 23, ch + 151);
+c.lineTo(cw - 6, ch + 165);
+c.lineTo(cw - 5, ch + 180);
+c.lineTo(cw - 19, ch + 185);
+c.lineTo(cw - 45, ch + 170);
+c.closePath();
+c.strokeStyle = "rgba(120, 103, 195, 0.7)";
+c.stroke();
+c.fillStyle = "rgba(120, 103, 195, 1.0)";
+c.fill();
+
+//bottom jaw area
+//middle
+c.beginPath();
+c.moveTo(cw + 18, ch + 186);
+c.lineTo(cw - 18, ch + 186);
+c.lineTo(cw - 18, ch + 210);
+c.lineTo(cw + 18, ch + 210);
+c.closePath();
+c.strokeStyle = "rgba(67, 42, 118, 0.5)";
+c.stroke();
+c.fillStyle = "rgba(67, 42, 118, 0.7)";
+c.fill();
+
+// right
+c.beginPath();
+c.moveTo(cw + 19, ch + 185);
+c.lineTo(cw + 45, ch + 170);
+c.lineTo(cw + 80, ch + 185);
+c.lineTo(cw + 18, ch + 210);
+c.closePath();
+c.strokeStyle = "rgba(120, 103, 195, 0.7)";
+c.stroke();
+c.fillStyle = "rgba(120, 103, 195, 1.0)";
+c.fill();
+
+//left
+c.beginPath();
+c.moveTo(cw - 19, ch + 185);
+c.lineTo(cw - 45, ch + 170);
+c.lineTo(cw - 80, ch + 185);
+c.lineTo(cw - 18, ch + 210);
+c.closePath();
+c.strokeStyle = "rgba(120, 103, 195, 0.7)";
+c.stroke();
+c.fillStyle = "rgba(120, 103, 195, 0.7)";
+c.fill();
 // ------------------------ cat forehead area ----------------------------------
 //mid tri
 c.beginPath();
@@ -200,6 +264,109 @@ c.closePath();
 c.strokeStyle = "rgba(120, 103, 195, 0.7)";
 c.stroke();
 c.fillStyle = "rgba(120, 103, 195, 1.0)";
+c.fill();
+
+// -------------------------------- Ears -----------------------------------------
+// right ear
+c.beginPath();
+c.moveTo(cw + 35, ch -27);
+c.lineTo(cw + 55, ch - 21);
+c.lineTo(cw + 60, ch - 50);
+c.closePath();
+c.strokeStyle = "rgba(120, 103, 195, 0.7)";
+c.stroke();
+c.fillStyle = "rgba(120, 103, 195, 1.0)";
+c.fill();
+
+c.beginPath();
+c.moveTo(cw + 55, ch - 21);
+c.lineTo(cw + 95, ch - 12);
+c.lineTo(cw + 120, ch - 95);
+c.closePath();
+c.strokeStyle = "rgba(120, 103, 195, 0.7)";
+c.stroke();
+c.fillStyle = "rgba(120, 103, 195, 0.7)";
+c.fill();
+
+c.beginPath();
+c.moveTo(cw + 60, ch - 50);
+c.lineTo(cw + 55, ch - 21);
+c.lineTo(cw + 120, ch - 95);
+c.closePath();
+c.strokeStyle = "rgba(30, 7, 75, 0.7)";
+c.stroke();
+c.fillStyle = "rgba(30, 7, 75, 0.7)";
+c.fill();
+
+c.beginPath();
+c.moveTo(cw + 95, ch - 12);
+c.lineTo(cw + 113, ch - 20);
+c.lineTo(cw + 120, ch - 95);
+c.closePath();
+c.strokeStyle = "rgba(30, 7, 75, 0.7)";
+c.stroke();
+c.fillStyle = "rgba(30, 7, 75, 0.7)";
+c.fill();
+
+c.beginPath();
+c.moveTo(cw + 95, ch - 12);
+c.lineTo(cw + 103, ch - 7);
+c.lineTo(cw + 113, ch - 20);
+c.closePath();
+c.strokeStyle = "rgba(120, 103, 195, 0.7)";
+c.stroke();
+c.fillStyle = "rgba(120, 103, 195, 1.0)";
+c.fill();
+
+// left ear
+c.beginPath();
+c.moveTo(cw - 35, ch -27);
+c.lineTo(cw - 55, ch - 21);
+c.lineTo(cw - 60, ch - 50);
+c.closePath();
+c.strokeStyle = "rgba(120, 103, 195, 0.7)";
+c.stroke();
+c.fillStyle = "rgba(120, 103, 195, 0.7)";
+c.fill();
+
+c.beginPath();
+c.moveTo(cw - 55, ch - 21);
+c.lineTo(cw - 95, ch - 12);
+c.lineTo(cw - 120, ch - 95);
+c.closePath();
+c.strokeStyle = "rgba(120, 103, 195, 0.7)";
+c.stroke();
+c.fillStyle = "rgba(120, 103, 195, 1.0)";
+c.fill();
+
+c.beginPath();
+c.moveTo(cw - 60, ch - 50);
+c.lineTo(cw - 55, ch - 21);
+c.lineTo(cw - 120, ch - 95);
+c.closePath();
+c.strokeStyle = "rgba(30, 7, 75, 0.7)";
+c.stroke();
+c.fillStyle = "rgba(30, 7, 75, 0.7)";
+c.fill();
+
+c.beginPath();
+c.moveTo(cw - 95, ch - 12);
+c.lineTo(cw - 113, ch - 20);
+c.lineTo(cw - 120, ch - 95);
+c.closePath();
+c.strokeStyle = "rgba(30, 7, 75, 0.7)";
+c.stroke();
+c.fillStyle = "rgba(30, 7, 75, 0.7)";
+c.fill();
+
+c.beginPath();
+c.moveTo(cw - 95, ch - 12);
+c.lineTo(cw - 103, ch - 7);
+c.lineTo(cw - 113, ch - 20);
+c.closePath();
+c.strokeStyle = "rgba(120, 103, 195, 0.7)";
+c.stroke();
+c.fillStyle = "rgba(120, 103, 195, 0.7)";
 c.fill();
 
 // ----------------------------- Eye area ----------------------------------------
