@@ -1,10 +1,10 @@
 # Profile
 
-### Currently working on a complete revamp of my profile page to use canvas
+### Currently working on a complete revamp of my profile page
 
-#### Latest Update (07/31/19):
+#### Latest Update (02/23/20):
 
-* utilizing the basics of canvas to create custom cat image for opening page
+* reworking profile to be more dynamic and representative of myself. Starting with basic wireframing.
 
 ![Reference Images](/style/images/catHeadimg.jpg)
 
@@ -12,6 +12,6 @@
 
 #### Up and coming
 
-* Will be adding animation to get to different areas of my profile
-* plan on adding the rest of the cat face to start
-* will need to decide on images to use, colors to use, and font types to use as well as organization of some pages
+* Finish wireframing
+* add custom pieces and dynamic movement that is viewer intuitive 
+* adding more projects to show
