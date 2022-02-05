@@ -1,6 +1,6 @@
 # Profile
 
-Current Portfolio page https://motoko104.github.io/Profile/
+Current Portfolio page https://www.amandapad.dev
 
 ### Images of my Portfolio
 Normal View
